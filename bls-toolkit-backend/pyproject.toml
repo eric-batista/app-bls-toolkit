@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "bls-toolkit-backend"
+version = "0.1.0"
+description = ""
+authors = ["Eric Batista"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+eric-devtools = "^0.3.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
